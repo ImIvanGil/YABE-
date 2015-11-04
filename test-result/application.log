@@ -1,0 +1,64 @@
+04 nov 2015 09:23:24,978 INFO  ~ Starting /home/ivang/yabe
+04 nov 2015 09:23:26,039 WARN  ~ You're running Play! in DEV mode
+04 nov 2015 09:23:26,123 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+04 nov 2015 09:23:35,975 INFO  ~ Connected to jdbc:h2:mem:play;MODE=MYSQL;LOCK_MODE=0 for default
+04 nov 2015 09:23:36,922 INFO  ~ Application 'Yet Another Blog Engine By Ivan Gil' is now started !
+04 nov 2015 09:41:13,274 ERROR ~ HHH000389: Unsuccessful: alter table Post drop constraint FK_m7j5gwmpa7dklv5bnc41ertmi
+04 nov 2015 09:41:13,274 ERROR ~ Tabla "POST" no encontrada
+Table "POST" not found; SQL statement:
+alter table Post drop constraint FK_m7j5gwmpa7dklv5bnc41ertmi [42102-185]
+04 nov 2015 09:45:51,741 ERROR ~ HHH000389: Unsuccessful: alter table Comment drop constraint FK_apirq8ka64iidc18f3k6x5tc5
+04 nov 2015 09:45:51,741 ERROR ~ Tabla "COMMENT" no encontrada
+Table "COMMENT" not found; SQL statement:
+alter table Comment drop constraint FK_apirq8ka64iidc18f3k6x5tc5 [42102-185]
+04 nov 2015 09:47:01,485 ERROR ~ 
+
+@6o303m59b
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /app/models/Post.java around line 23)
+The file /app/models/Post.java could not be compiled. Error raised is : Duplicate method Post(User, String, String) in type Post
+
+play.exceptions.CompilationException: Duplicate method Post(User, String, String) in type Post
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:256)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:480)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:292)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:289)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:326)
+	at play.Play.detectChanges(Play.java:636)
+	at play.Invoker$Invocation.init(Invoker.java:199)
+	at Invocation.HTTP Request(Play!)
+04 nov 2015 09:47:02,444 ERROR ~ 
+
+@6o303m59c
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /app/models/Post.java around line 23)
+The file /app/models/Post.java could not be compiled. Error raised is : Duplicate method Post(User, String, String) in type Post
+
+play.exceptions.CompilationException: Duplicate method Post(User, String, String) in type Post
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:256)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:480)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:292)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:289)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:326)
+	at play.Play.detectChanges(Play.java:636)
+	at play.Invoker$Invocation.init(Invoker.java:199)
+	at Invocation.HTTP Request(Play!)
+04 nov 2015 09:47:04,314 ERROR ~ 
+
+@6o303m59d
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /app/models/Post.java around line 23)
+The file /app/models/Post.java could not be compiled. Error raised is : Duplicate method Post(User, String, String) in type Post
+
+play.exceptions.CompilationException: Duplicate method Post(User, String, String) in type Post
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:256)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:480)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:292)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:289)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:326)
+	at play.Play.detectChanges(Play.java:636)
+	at play.Invoker$Invocation.init(Invoker.java:199)
+	at Invocation.HTTP Request(Play!)
